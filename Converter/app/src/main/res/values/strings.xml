@@ -1,0 +1,475 @@
+<resources>
+    <string name="app_name">Konvertér</string>
+    <string name="calc_tab">Kalkulačka</string>
+    <string name="conv_tab">Konvertování</string>
+    <string name="history_tab">Historie</string>
+    <string name="Key_dot">.</string>
+    <string name="key_equals">=</string>
+    <string name="key_0">0</string>
+    <string name="key_ac">AC</string>
+    <string name="key_plus">+</string>
+    <string name="key_3">3</string>
+    <string name="key_2">2</string>
+    <string name="key_1">1</string>
+    <string name="key_minus">-</string>
+    <string name="key_6">6</string>
+    <string name="key_5">5</string>
+    <string name="key_4">4</string>
+    <string name="key_multiplication">*</string>
+    <string name="key_9">9</string>
+    <string name="key_8">8</string>
+    <string name="key_7">7</string>
+    <string name="Key_open_parenthesis">(</string>
+    <string name="key_close_parenthesis">)</string>
+    <string name="key_division">/</string>
+    <string-array name="data_transfer_units">
+        <item>bps</item>
+        <item>kbps</item>
+        <item>Mbps</item>
+        <item>Gbps</item>
+        <item>Tbps</item>
+        <item>Bps</item>
+        <item>kBps</item>
+        <item>MBps</item>
+        <item>GBps</item>
+        <item>TBps</item>
+    </string-array>
+    <string-array name="data_transfer_units_full">
+        <item>Bity za sekundu</item>
+        <item>Kilobity za sekundu</item>
+        <item>Megabity za sekundu</item>
+        <item>Gigabity za sekundu</item>
+        <item>Terabity za sekundu</item>
+        <item>Bajty za sekundu</item>
+        <item>Kilobajty za sekundu</item>
+        <item>Megabajty za sekundu</item>
+        <item>Gigabajty za sekundu</item>
+        <item>Terabajty za sekundu</item>
+    </string-array>
+    <string-array name="density_units">
+        <item>kg/m³</item>
+        <item>g/cm³</item>
+        <item>g/mL</item>
+        <item>lb/ft³</item>
+        <item>lb/in³</item>
+        <item>oz/in³</item>
+        <item>oz/gal</item>
+        <item>lb/gal</item>
+        <item>ton/yd³</item>
+        <item>tonne/m³</item>
+    </string-array>
+    <string-array name="density_units_full">
+        <item>Kilogram na metr krychlový</item>
+        <item>Gram na centimetr krychlový</item>
+        <item>Gram na mililitr</item>
+        <item>Libra na stopu krychlovou</item>
+        <item>Libra na palec krychlový</item>
+        <item>Unce na palec krychlový</item>
+        <item>Unce na galon</item>
+        <item>Libra na galon</item>
+        <item>Tuna na yard krychlový</item>
+        <item>Tuna na metr krychlový</item>
+    </string-array>
+    <string-array name="angle_units">
+        <item>rad</item>
+        <item>deg</item>
+        <item>grad</item>
+        <item>arcsec</item>
+        <item>arcmin</item>
+        <item>mil</item>
+        <item>gon</item>
+        <item>rev</item>
+    </string-array>
+    <string-array name="angle_units_full">
+        <item>Radián</item>
+        <item>Stupeň</item>
+        <item>Gradián</item>
+        <item>Sekunda oblouku</item>
+        <item>Minuta oblouku</item>
+        <item>Milliradián</item>
+        <item>Gon</item>
+        <item>Revoluce</item>
+    </string-array>
+    <string-array name="frequency_units">
+        <item>Hz</item>
+        <item>kHz</item>
+        <item>MHz</item>
+        <item>GHz</item>
+        <item>THz</item>
+        <item>rpm</item>
+        <item>rps</item>
+        <item>BPM</item>
+        <item>cps</item>
+    </string-array>
+    <string-array name="frequency_units_full">
+        <item>Hertz</item>
+        <item>Kilohertz</item>
+        <item>Megahertz</item>
+        <item>Gigahertz</item>
+        <item>Terahertz</item>
+        <item>Otáčky za minutu</item>
+        <item>Otáčky za sekundu</item>
+        <item>Údery za minutu</item>
+        <item>Cykly za sekundu</item>
+    </string-array>
+    <string-array name="pressure_units">
+        <item>Pa</item>
+        <item>kPa</item>
+        <item>MPa</item>
+        <item>GPa</item>
+        <item>mPa</item>
+        <item>psi</item>
+        <item>bar</item>
+        <item>mbar</item>
+        <item>inHg</item>
+        <item>atm</item>
+        <item>torr</item>
+        <item>mTorr</item>
+        <item>psf</item>
+        <item>cmH2O</item>
+        <item>ftH2O</item>
+        <item>mH2O</item>
+        <item>inH2O</item>
+        <item>kgf/cm2</item>
+    </string-array>
+    <string-array name="pressure_units_full">
+        <item>Pascal</item>
+        <item>Kilopascal</item>
+        <item>Megapascal</item>
+        <item>Gigapascal</item>
+        <item>Milipascal</item>
+        <item>Libra síly na čtvereční palec</item>
+        <item>Bar</item>
+        <item>Millibar</item>
+        <item>Palec rtuti</item>
+        <item>Standardní atmosféra</item>
+        <item>Torr</item>
+        <item>Militorr</item>
+        <item>Libra síly na čtvereční stopu</item>
+        <item>Centimetr vodního sloupce</item>
+        <item>Stopa vodního sloupce</item>
+        <item>Metr vodního sloupce</item>
+        <item>Palec vodního sloupce</item>
+        <item>Kilogramy síly na čtvereční centimetr</item>
+    </string-array>
+    <string-array name="power_units_full">
+        <item>Watt</item>
+        <item>Kilowatt</item>
+        <item>Megawatt</item>
+        <item>Gigawatt</item>
+        <item>Terawatt</item>
+        <item>Koňská síla</item>
+        <item>BTU za hodinu</item>
+        <item>Tisíc BTU za hodinu</item>
+        <item>Milion BTU za hodinu</item>
+        <item>Miliarda BTU za hodinu</item>
+        <item>Joule za sekundu</item>
+        <item>Kilojoule za sekundu</item>
+        <item>Megajoule za sekundu</item>
+        <item>Gigajoule za sekundu</item>
+        <item>Calorie za sekundu</item>
+        <item>Kilocalorie za sekundu</item>
+        <item>Voltampér</item>
+        <item>Kilovoltampér</item>
+        <item>Megavoltampér</item>
+        <item>Gigavoltampér</item>
+        <item>Teravoltampér</item>
+        <item>Calorie za hodinu</item>
+        <item>Elektronvolt za sekundu</item>
+    </string-array>
+    <string-array name="power_units">
+        <item>W</item>
+        <item>kW</item>
+        <item>MW</item>
+        <item>GW</item>
+        <item>TW</item>
+        <item>hp</item>
+        <item>BTU/h</item>
+        <item>MBH</item>
+        <item>MMBH</item>
+        <item>BBH</item>
+        <item>J/s</item>
+        <item>kJ/s</item>
+        <item>MJ/s</item>
+        <item>GJ/s</item>
+        <item>cal/s</item>
+        <item>kcal/s</item>
+        <item>VA</item>
+        <item>kVA</item>
+        <item>MVA</item>
+        <item>GVA</item>
+        <item>TVA</item>
+        <item>cal/h</item>
+        <item>eV/s</item>
+    </string-array>
+    <string-array name="energy_units">
+        <item>aJ</item>
+        <item>J</item>
+        <item>kJ</item>
+        <item>MJ</item>
+        <item>GJ</item>
+        <item>TJ</item>
+        <item>cal</item>
+        <item>kcal</item>
+        <item>BTU</item>
+        <item>MBTU</item>
+        <item>MMBTU</item>
+        <item>BBTU</item>
+        <item>eV</item>
+        <item>keV</item>
+        <item>MeV</item>
+        <item>TeV</item>
+        <item>Wh</item>
+        <item>kWh</item>
+        <item>MWh</item>
+        <item>GWh</item>
+        <item>th</item>
+        <item>dth</item>
+        <item>Gth</item>
+        <item>Tth</item>
+    </string-array>
+    <string-array name="energy_units_full">
+        <item>Attojoule</item>
+        <item>Joule</item>
+        <item>Kilojoule</item>
+        <item>Megajoule</item>
+        <item>Gigajoule</item>
+        <item>Terajoule</item>
+        <item>Calorie</item>
+        <item>Kilokalorie</item>
+        <item>BTU</item>
+        <item>Tisíc BTU</item>
+        <item>Milion BTU</item>
+        <item>Miliarda BTU</item>
+        <item>Elektronvolt</item>
+        <item>Kiloelektronvolt</item>
+        <item>Megaelektronvolt</item>
+        <item>Teraelektronvolt</item>
+        <item>Watthodina</item>
+        <item>Kilowatthodina</item>
+        <item>Megawatthodina</item>
+        <item>Gigawatthodina</item>
+        <item>Therm</item>
+        <item>Dekatherm</item>
+        <item>Gigatherm</item>
+        <item>Teratherm</item>
+    </string-array>
+    <string-array name="volume_units">
+        <item>m³</item>
+        <item>dm³</item>
+        <item>cm³</item>
+        <item>mm³</item>
+        <item>hl</item>
+        <item>l</item>
+        <item>dl</item>
+        <item>cl</item>
+        <item>ml</item>
+        <item>ft³</item>
+        <item>in³</item>
+        <item>yd³</item>
+    </string-array>
+    <string-array name="volume_units_full">
+        <item>Decimetr krychlový</item>
+        <item>Metr krychlový</item>
+        <item>Centimetr krychlový </item>
+        <item>Milimetr krychlový</item>
+        <item>Hektolitr</item>
+        <item>Litr</item>
+        <item>Decilitr</item>
+        <item>Centilitr</item>
+        <item>Millimetr</item>
+        <item>Krychlová stopa</item>
+        <item>Krychlový palec</item>
+        <item>Krychlový yard</item>
+    </string-array>
+    <string-array name="time_units">
+        <item>mil</item>
+        <item>cen</item>
+        <item>dec</item>
+        <item>y</item>
+        <item>wk</item>
+        <item>d</item>
+        <item>h</item>
+        <item>min</item>
+        <item>s</item>
+        <item>ms</item>
+        <item>µs</item>
+        <item>ps</item>
+    </string-array>
+    <string-array name="time_units_full">
+        <item>Tisíciletí</item>
+        <item>Století</item>
+        <item>Desetiletí</item>
+        <item>Rok</item>
+        <item>Týden</item>
+        <item>Den</item>
+        <item>Hodina</item>
+        <item>Minuta</item>
+        <item>Sekunda</item>
+        <item>Milisekunda</item>
+        <item>Mikrosekunda</item>
+        <item>Pikosekunda</item>
+    </string-array>
+
+    <string-array name="temperature_units_full">
+        <item>Kelvin</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="temperature_units">
+        <item>°K</item>
+        <item>°C</item>
+        <item>°F</item>
+    </string-array>
+    <string-array name="speed_units">
+        <item>c</item>
+        <item>Ma</item>
+        <item>m/s</item>
+        <item>km/h</item>
+        <item>km/s</item>
+        <item>kn</item>
+        <item>mph</item>
+        <item>fps</item>
+        <item>ips</item>
+    </string-array>
+    <string-array name="speed_units_full">
+        <item>Rychlost světla</item>
+        <item>Mach</item>
+        <item>Metr za sekundu</item>
+        <item>Kilometr za hodinu</item>
+        <item>Kilometr za sekundu</item>
+        <item>Uzel</item>
+        <item>Míle za hodinu</item>
+        <item>Stopa za sekundu</item>
+        <item>Palce za sekundu</item>
+    </string-array>
+
+    <string-array name="mass_units_full">
+        <item>Tuna</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Mikrogram</item>
+        <item>Libra</item>
+        <item>Unce</item>
+        <item>Karát</item>
+        <item>Zrno</item>
+        <item>Dlouhá tuna</item>
+        <item>Krátká tuna</item>
+        <item>Kámen</item>
+    </string-array>
+    <string-array name="mass_units">
+        <item>t</item>
+        <item>kg</item>
+        <item>g</item>
+        <item>mg</item>
+        <item>µg</item>
+        <item>lb</item>
+        <item>oz</item>
+        <item>ct</item>
+        <item>gr</item>
+        <item>l.t</item>
+        <item>sh.t</item>
+        <item>st</item>
+    </string-array>
+    <string-array name="area_units">
+        <item>km²</item>
+        <item>ha</item>
+        <item>a</item>
+        <item>m²</item>
+        <item>cm²</item>
+        <item>mm²</item>
+        <item>µm²</item>
+        <item>ac</item>
+        <item>mile²</item>
+        <item>yd²</item>
+        <item>ft²</item>
+        <item>in²</item>
+    </string-array>
+    <string-array name="area_units_full">
+        <item>Čtvereční kilometr</item>
+        <item>Hektar</item>
+        <item>Ar</item>
+        <item>Čtvereční metr</item>
+        <item>Čtvereční centimetr</item>
+        <item>Čtvereční milimetr</item>
+        <item>Čtvereční mikron</item>
+        <item>Akr</item>
+        <item>Čtvereční míle</item>
+        <item>Čtvereční yard</item>
+        <item>Čtvereční stopa</item>
+        <item>Čtvereční palec</item>
+    </string-array>
+
+    <string-array name="length_units_full">
+        <item>Kilometr</item>
+        <item>Metr</item>
+        <item>Decimetr</item>
+        <item>Centimetr</item>
+        <item>Millimetr</item>
+        <item>Mikrometr</item>
+        <item>Nanometr</item>
+        <item>Pikometr</item>
+        <item>Námořní míle</item>
+        <item>Míle</item>
+        <item>Yard</item>
+        <item>Stopa</item>
+        <item>Palec</item>
+        <item>Parsek</item>
+        <item>Astronomická jednotka</item>
+        <item>Světelný rok</item>
+    </string-array>
+    <string-array name="length_units">
+        <item>km</item>
+        <item>m</item>
+        <item>dm</item>
+        <item>cm</item>
+        <item>mm</item>
+        <item>µm</item>
+        <item>nm</item>
+        <item>pm</item>
+        <item>nmi</item>
+        <item>mi</item>
+        <item>yd</item>
+        <item>ft</item>
+        <item>in</item>
+        <item>pc</item>
+        <item>au</item>
+        <item>ly</item>
+    </string-array>
+    <string-array name="data_units">
+        <item>B</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+        <item>PB</item>
+    </string-array>
+    <string-array name="data_units_full">
+        <item>Byte</item>
+        <item>Kilobyte</item>
+        <item>Megabyte</item>
+        <item>Gigabyte</item>
+        <item>Terabyte</item>
+        <item>Petabyte</item>
+    </string-array>
+    <string name="area_title">Plocha</string>
+    <string name="data_title">Data</string>
+    <string name="length_title">Délka</string>
+    <string name="mass_title">Hmotnost</string>
+    <string name="speed_title">Rychlost</string>
+    <string name="time_title">Čas</string>
+    <string name="volume_title">Objem</string>
+    <string name="energy_title">Energie</string>
+    <string name="power_title">Výkon</string>
+    <string name="pressure_title">Tlak</string> <!-- tady pokracovat -->
+    <string name="frequency_title">Frekvence</string>
+    <string name="angle_title">Úhel</string>
+    <string name="density_title">Hustota</string>
+    <string name="data_transfer_title">Přenos dat</string>
+    <string name="temperature_title">Teplota</string>
+    <string name="plus_minus">±</string>
+    <string name="error">Chyba</string>
+    <string name="convert">PŘEVÉST</string>
+    <string name="triangle_char">▼</string>
+</resources>
